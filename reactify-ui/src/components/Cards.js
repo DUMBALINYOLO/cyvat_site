@@ -2,8 +2,14 @@ import React, { useEffect } from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import AOS from "aos";
-import 'aos/dist/aos.css'
-import cyv1 from './background/cyv1.jpg'
+import 'aos/dist/aos.css';
+import entry4 from './background/entry4.jpg';
+import advo8 from './background/advo8.jpg';
+import advo7 from './background/advo7.jpg';
+import wash2 from './background/wash2.jpg';
+import fd11 from './background/fd11.jpg';
+import catch2 from './background/catch2.jpg';
+
 
 function Cards() {
 
@@ -21,35 +27,42 @@ function Cards() {
           <div className='cards__wrapper'>
             <ul className='cards__items' >
               <CardItem
-                src={cyv1}
-                text='IMPROVE INFRASTRUCTURE TO IMPROVE EDUCATION QUALITY'
+                src={catch2}
+                text='WE DEVELOP AND IMPROVE INFRASTRUCTURE AS MEANS TO IMPROVE EDUCATION QUALITY IN UNDERDEVELOPED SCHOOLS'
                 label='INFRASTRUCTURE DEVELOPMENT'
                 data-aos="fade-right"
               />
               <CardItem
-                src='images/fd11.jpg'
-                text='WELL FED STUDENTS ARE LIKELY TO PUT MORE EFFORT TO THEIR STUDIES'
+                src={fd11}
+                text='WE HELP FEED SCHOOL CHILDREN IN SCHOOLS AND HUNGER STRICKEN COMMUNITIES'
                 label='NUTRITION'
                 data-aos="fade-left"
               />
+              <CardItem
+                src={wash2}
+                text='WE INTERVENE IN PROVIDING WATER AND SANITATION TO COMMUNITIES'
+                label='WASH'
+                data-aos="fade-left"
+              />
             </ul>
+            
             <ul className='cards__items'>
               <CardItem
-                src='images/advo8.jpg'
-                text='A HUMAN IS NEVER FREE UNLESS THEY ARE COGNIZANT OF THEIR RIGHTS AND SPEAK FREELY ABOUT THEM'
+                src={advo8}
+                text='WE CONSCIENTIZE COMMUNITIES ON THEIR HUMAN RIGHTS AND HELP THEM ADVOCATE FOR THEIR RIGHTS'
                 label='ADVOCACY'
                 data-aos="fade-up"
               />
               <CardItem
-                src='images/entry4.jpg'
-                text='WE HELP ENTREPRENEURS'
+                src={entry4}
+                text='WE INSTILL AN ENTREPRENEURIAL MINDSET IN COMMUNITIES AND ASSIST THE ENTREPRENEURS ACCESS THE MARKET'
                 label='ENTREPRENEURSHIP'
                 data-aos="fade-left"
 
               />
               <CardItem
-                src='images/advo7.jpg'
-                text='WE EMPOWER YOUNG PEOPLE'
+                src={advo7}
+                text='WE EMPOWER YOUNG PEOPLE THROUGH ADVOCACY AND SUSTAINABLE LIVELIHOODS'
                 label='YOUTH EMPOWERMENT'
                 data-aos="fade-right"
               />
@@ -62,3 +75,9 @@ function Cards() {
 }
 
 export default Cards;
+
+
+
+
+
+

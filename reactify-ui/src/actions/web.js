@@ -1,14 +1,11 @@
 import axios from 'axios';
 import {
     GET_PORTFOLIOS,
-    GET_GALLERY,
-    GET_GALLERIES,
     GET_PERSONELS, 
     GET_BOARD_MEMBERS,
     GET_PARTNERS,
     GET_NEWSLETTER,
     GET_NEWSLETTERS,
-    GET_FINISHED_PROJECT,
     GET_FINISHED_PROJECTS,
     GET_ONGOING_PROJECT, 
     GET_ONGOING_PROJECTS,
@@ -21,10 +18,8 @@ import {
 
 
 import { 
-	faqsURL,
 	principlesURL,
 	portfoliosURL,
-	galleriesURL,
 	personelsURL,
 	boardmembersURL,
 	partnersURL,

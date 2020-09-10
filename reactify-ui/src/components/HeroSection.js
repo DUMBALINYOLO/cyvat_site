@@ -1,12 +1,9 @@
 import React, { useEffect }  from 'react';
 import '../App.css';
-import { Button } from './Button';
 import AOS from "aos";
 import 'aos/dist/aos.css'
 import HeroSlider, {
   Slide,
-  SideNav,
-  Nav,
   OverlayContainer,
 } from 'hero-slider'
 import styled from "styled-components";
@@ -15,12 +12,6 @@ import cyv1 from './background/cyv1.jpg';
 import cyv2 from './background/cyv2.jpg';
 import cyv3 from './background/cyv3.jpg';
 import cyv4 from './background/cyv4.jpg';
-import cyv5 from './background/cyv5.jpg';
-import cyv6 from './background/cyv6.jpg';
-import cyv7 from './background/cyv7.jpg';
-import cyv8 from './background/cyv8.jpg';
-import cyv9 from './background/cyv9.jpg';
-
 
 
 function HeroSection() {

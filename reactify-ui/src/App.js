@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import {HashRouter as Router} from 'react-router-dom';
 import {Switch, Route} from 'react-router-dom';
 import {Provider} from 'react-redux';
 import 'primereact/resources/themes/nova-light/theme.css';
@@ -9,9 +8,6 @@ import store from './store';
 import './sass/main.scss';
 import './App.css';
 import Default from './components/Default';
-import Services from './components/Services';
-import Products from './components/Products';
-import SignUp from './components/SignUp';
 import Navbar from './components/Navbar';
 
 
@@ -37,11 +33,11 @@ class App extends Component{
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/finishedprojects' component={FinishedProjects} /> 
-                <Route exact exact path='/finishedprojects/:id'  component={FinishedProject} />
+                <Route exact path='/finishedprojects/:id'  component={FinishedProject} />
                 <Route exact path='/ongoingprojects' component={OngoingProjects} /> 
-                <Route exact exact path='/ongoingprojects/:id'  component={OngoingProject} />
+                <Route exact path='/ongoingprojects/:id'  component={OngoingProject} />
                 <Route exact path='/newsletters' component={Newsletters} /> 
-                <Route exact exact path='/newsletters/:id'  component={Newsletter} />  
+                <Route exact path='/newsletters/:id'  component={Newsletter} />  
                 <Route component={Default} />
               </Switch>
             </Fragment>

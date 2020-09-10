@@ -12,12 +12,6 @@ import './Cards.css';
 
 const FinishedProject = (props) => {
     const [project, setProject] = useState({});
-    
-
-    const numberWithCommas = (x) => {
-        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    };
-
     useEffect(() => {
         const id = props.match.params.id;
 

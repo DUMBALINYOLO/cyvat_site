@@ -4,15 +4,11 @@ import { Link } from 'react-router-dom'
 
 
 const NewsletterCard = (props) => {
-    const numberWithCommas = (x) => {
-        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    };
-
     return (
         <div className='card' >
             <h3 className='card__title'>{props.title}</h3>
             <div className='card__header'>
-                <img className='card__header__photo' style ={{width: '300px', height: '200px'}} src={props.image} alt='Photo' />
+                <img className='card__header__photo' style ={{width: '300px', height: '200px'}} src={props.image} alt='' />
             </div>
 
             <div className='row'>

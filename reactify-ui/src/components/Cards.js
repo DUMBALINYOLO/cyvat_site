@@ -3,6 +3,7 @@ import './Cards.css';
 import CardItem from './CardItem';
 import AOS from "aos";
 import 'aos/dist/aos.css'
+import cyv1 from './background/cyv1.jpg'
 
 function Cards() {
 
@@ -20,7 +21,7 @@ function Cards() {
           <div className='cards__wrapper'>
             <ul className='cards__items' >
               <CardItem
-                src='images/catch2.jpg'
+                src={cyv1}
                 text='IMPROVE INFRASTRUCTURE TO IMPROVE EDUCATION QUALITY'
                 label='INFRASTRUCTURE DEVELOPMENT'
                 data-aos="fade-right"

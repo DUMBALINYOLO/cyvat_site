@@ -20,6 +20,7 @@ function Footer() {
             <Link to="/"><i className="pi pi-google"></i></Link>
           </div>
           <p className="rights-text">© 2020 Christian Youth Volunteer Trust(CYVAT)</p>
+          <p className="rights-text">developed by ©almax</p>
         </div>
 
         <div className="right-col">

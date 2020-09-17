@@ -51,7 +51,7 @@ export class Board extends Component {
             <div className="product-iem">
                 <div className="product-tem-content">
                     <div className="p-mb-3">
-                        <img src={member.image} alt={member.name} className="product-image" style={{width: '200px', height: '150px', boxShadow: 'tomato'}} />
+                        <img src={member.image} alt={member.name} className="product-image" style={{borderRadius: '50%', width: '200px', height: '150px', boxShadow: 'tomato'}} />
                     </div>
                     <div>
                         <h4 className="p-mb-1">{member.name}</h4>

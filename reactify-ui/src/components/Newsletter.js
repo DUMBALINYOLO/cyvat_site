@@ -16,7 +16,7 @@ const Newsletter = (props) => {
         const id = props.match.params.id;
 
 
-        axios.get(`http://127.0.0.1:8000/api/pages/newsletters/${id}`)
+        axios.get(`https://www.cyvat.org.zw/api/pages/newsletters/${id}`)
         .then(res => {
             setNewsLetter(res.data);
             

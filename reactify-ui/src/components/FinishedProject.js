@@ -16,7 +16,7 @@ const FinishedProject = (props) => {
         const id = props.match.params.id;
 
 
-        axios.get(`http://127.0.0.1:8000/api/pages/finished-projects/${id}`)
+        axios.get(`https://www.cyvat.org.zw/api/pages/finished-projects/${id}`)
         .then(res => {
             setProject(res.data);
             

@@ -16,7 +16,7 @@ const OngoingProject = (props) => {
         const id = props.match.params.id;
 
 
-        axios.get(`http://127.0.0.1:8000/api/pages/ongoing-projects/${id}`)
+        axios.get(`https://www.cyvat.org.zw/api/pages/ongoing-projects/${id}`)
         .then(res => {
             setProject(res.data);
             

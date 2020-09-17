@@ -23,7 +23,6 @@ import Newsletter from './components/Newsletter';
 
 
 
-
 class App extends Component{
   render(){
     return(

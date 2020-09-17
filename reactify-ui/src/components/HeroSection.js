@@ -8,10 +8,32 @@ import HeroSlider, {
 } from 'hero-slider'
 import styled from "styled-components";
 import './HeroSection.css';
-import cyv1 from './background/cyv1.jpg';
-import cyv2 from './background/cyv2.jpg';
-import cyv3 from './background/cyv3.jpg';
+import catch1 from './background/catch1.jpg';
+import cyv5 from './background/cyv5.jpg';
 import cyv4 from './background/cyv4.jpg';
+import cyv6 from './background/cyv6.jpg';
+import cyv7 from './background/cyv7.jpg';
+import cyv8 from './background/cyv8.jpg';
+import cyv9 from './background/cyv9.jpg';
+import ed9 from './background/ed9.jpg';
+import entr1 from './background/entr1.jpg';
+import entr11 from './background/entr11.jpg';
+import entr12 from './background/entr12.jpg';
+import fd10 from './background/fd10.jpg';
+import fd6 from './background/fd6.jpg';
+import h1 from './background/h1.jpg';
+import h2 from './background/h2.jpg';
+import h3 from './background/h3.jpg';
+import h5 from './background/h5.jpg';
+import h6 from './background/h6.jpg';
+import h7 from './background/h7.jpg';
+import h8 from './background/h8.jpg';
+import rec7 from './background/rec7.jpg';
+import rec8 from './background/rec8.jpg';
+import rec9 from './background/rec9.jpg';
+import wash from './background/wash.jpg';
+import wash2 from './background/wash2.jpg';
+
 
 
 function HeroSection() {
@@ -21,7 +43,7 @@ function HeroSection() {
   }, []);
 
   return (
-    <div className='hero-container' data-aos="flip-up">
+    <div className='hero-containe' data-aos="flip-up">
       <HeroSlider
         slidingAnimation="top_to_bottom"
         orientation="horizontal"
@@ -41,48 +63,17 @@ function HeroSection() {
         <OverlayContainer>
           <Wrapper>
             <h1>
-              Vertical Slider
+              WELCOME  TO CHRISTIAN YOUTH VOLUNTERS TRUST
+              
             </h1>
-            <h2>
-              Try switching to a display that supports touch, then swipe vertically
-            </h2>
           </Wrapper>
         </OverlayContainer>
 
           <Slide
             background={{
-              backgroundImage: cyv1
+              backgroundImage: catch1
             }}
           >
-            <Wrapper>
-              <h2>
-                CYVAT
-              </h2>
-            </Wrapper>
-          </Slide>
-
-          <Slide
-            background={{
-              backgroundImage: cyv2
-            }}
-          >
-            <Wrapper>
-              <h2>
-                CYVAT
-              </h2>
-            </Wrapper>
-          </Slide>
-
-          <Slide
-            background={{
-              backgroundImage: cyv3
-            }}
-          >
-            <Wrapper>
-              <h2>
-                CYVAT
-              </h2>
-            </Wrapper>
           </Slide>
 
           <Slide
@@ -90,12 +81,177 @@ function HeroSection() {
               backgroundImage: cyv4
             }}
           >
-              <Wrapper>
-                <h2>
-                  CYVAT
-                </h2>
-              </Wrapper>
           </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: cyv5
+            }}
+          >
+
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: cyv6
+            }}
+          >
+          </Slide>
+          <Slide
+            background={{
+              backgroundImage: cyv7
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: cyv8
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: cyv9
+            }}
+          >
+
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: ed9
+            }}
+          >
+          </Slide>
+
+
+          <Slide
+            background={{
+              backgroundImage: entr1
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: entr11
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: entr12
+            }}
+          >
+
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: fd10
+            }}
+          >
+          </Slide>
+
+
+          <Slide
+            background={{
+              backgroundImage: fd6
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: h1
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: h2
+            }}
+          >
+
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: h3
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: h5
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: h6
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: h7
+            }}
+          >
+
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: h8
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: rec7
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: rec8
+            }}
+          >
+
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: rec9
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: wash
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: wash2
+            }}
+          >
+          </Slide>
+
+          
       </HeroSlider>
       
     </div>
@@ -106,6 +262,7 @@ export default HeroSection;
 
 
 // Libraries
+
 
 
 const Wrapper = styled.div`

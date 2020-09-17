@@ -123,7 +123,7 @@ const OngoingProjects = () => {
 
     return (
         <main className='listings'>
-            <div className='car'>
+            <div className='cards'>
                 <Helmet>
                     <title>Onngoing Projects</title>
                     <meta

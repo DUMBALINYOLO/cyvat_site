@@ -119,7 +119,7 @@ class OngoingProjectViewSet(viewsets.ModelViewSet):
 	def get_queryset(self, *args, **kwargs):
 		queryset = Project.objects.prefetch_related(
 											'portifolios',
-											'objectives',
+											# 'objectives',
 											'project_areas',
 											'beneficiaries',
 											'partners'
@@ -148,7 +148,7 @@ class FinishedProjectViewSet(viewsets.ModelViewSet):
 	def get_queryset(self, *args, **kwargs):
 		queryset = Project.objects.prefetch_related(
 											'portifolios',
-											'objectives',
+											# 'objectives',
 											'project_areas',
 											'beneficiaries',
 											'partners'

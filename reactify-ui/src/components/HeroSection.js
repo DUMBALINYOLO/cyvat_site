@@ -52,11 +52,11 @@ function HeroSection() {
           color: '#FFF',
         }}
         settings={{
-          slidingDuration: 600,
-          slidingDelay: 100,
+          slidingDuration: 300,
+          slidingDelay: 50,
           shouldAutoplay: true,
           shouldDisplayButtons: false,
-          autoplayDuration: 8000,
+          autoplayDuration: 2000,
           height: '90vmin',
         }}
       >

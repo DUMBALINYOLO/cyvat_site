@@ -73,7 +73,7 @@ export class Board extends Component {
         return (
             <Fragment>
                 <li className='zards__item'>
-                    <Card style={{color: 'teal', width: '400px', height: '500px'}}>
+                    <Card style={{color: 'teal', width: '300px', height: '500px'}}>
                         <Carousel 
                             value={this.props.boardmembers} 
                             numVisible={1} 

@@ -137,7 +137,6 @@ class PostSerializer(serializers.ModelSerializer):
 
 class ProjectDetailSerializer(serializers.ModelSerializer):
 	portifolios = serializers.StringRelatedField(many=True)
-	objectives = serializers.StringRelatedField(many=True)
 	project_areas = serializers.StringRelatedField(many=True)
 	beneficiaries = serializers.StringRelatedField(many=True)
 	partners = serializers.StringRelatedField(many=True)

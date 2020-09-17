@@ -55,7 +55,6 @@ const OngoingProjects = () => {
                     duration={project.duration}
                     status={project.status}
                     beneficiary_population={project.beneficiary_population}
-                    project_areas={project.project_areas}
                     id={project.id}
                 />
             );

@@ -6,11 +6,10 @@ import { Link } from 'react-router-dom';
 const OngoingProjectCard = (props) => {
     return (
         <div className='card' >
-            <h3 className='card__title'>{props.name}</h3>
+            <h5 className='card__title' style={{ textAlign: 'center' }}>{props.name}</h5>
             <div className='card__header'>
                 <img className='card__header__photo' src={props.image} alt='' />
             </div>
-            <p className='card__location'>{props.project_areas}</p>
             <div className='row'>
                 <div className='col-2-of-3'>
                     <p className='card__info'>Start Date: {props.start_date}</p>

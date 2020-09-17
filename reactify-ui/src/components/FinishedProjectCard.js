@@ -8,7 +8,7 @@ const FinishedProjectCard = (props) => {
         <div className='card' >
             <h3 className='card__title'>{props.name}</h3>
             <div className='card__header'>
-                <img className='card__header__photo' style ={{width: '300px', height: '200px'}} src={props.image} alt='' />
+                <img className='card__header__photo' src={props.image} alt='' />
             </div>
             <p className='card__location'>{props.project_areas}</p>
             <div className='row'>

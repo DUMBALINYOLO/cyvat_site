@@ -33,6 +33,18 @@ import rec8 from './background/rec8.jpg';
 import rec9 from './background/rec9.jpg';
 import wash from './background/wash.jpg';
 import wash2 from './background/wash2.jpg';
+import hr1 from './background/hr1.jpeg';
+import hr2 from './background/hr2.jpeg';
+import hr5 from './background/hr5.jpeg';
+import hr6 from './background/hr6.jpeg';
+import hr7 from './background/hr7.jpeg';
+import hr8 from './background/hr8.jpeg';
+import hr9 from './background/hr9.jpeg';
+import hr10 from './background/hr10.jpeg';
+import hr11 from './background/hr11.jpeg';
+import hr12 from './background/hr12.jpeg';
+import hr15 from './background/hr15.jpeg';
+
 
 
 
@@ -68,6 +80,13 @@ function HeroSection() {
             </h1>
           </Wrapper>
         </OverlayContainer>
+          <Slide
+            background={{
+              backgroundImage: hr9
+            }}
+          >
+          </Slide>
+
 
           <Slide
             background={{
@@ -78,7 +97,45 @@ function HeroSection() {
 
           <Slide
             background={{
+              backgroundImage: hr1
+            }}
+          >
+          </Slide>
+
+
+
+
+          <Slide
+            background={{
               backgroundImage: cyv4
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: hr2
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: hr5
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: hr6
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: hr7
             }}
           >
           </Slide>
@@ -106,6 +163,30 @@ function HeroSection() {
 
           <Slide
             background={{
+              backgroundImage: hr8
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: hr10
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: hr11
+            }}
+          >
+          </Slide>
+
+
+
+
+          <Slide
+            background={{
               backgroundImage: cyv8
             }}
           >
@@ -125,6 +206,23 @@ function HeroSection() {
             }}
           >
           </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: hr12
+            }}
+          >
+          </Slide>
+
+          <Slide
+            background={{
+              backgroundImage: hr15
+            }}
+          >
+          </Slide>
+
+
+
 
 
           <Slide

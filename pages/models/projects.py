@@ -117,7 +117,6 @@ class Project(models.Model):
 	image = models.ImageField(upload_to='photos/%Y/%m/%d/', null=True, blank=True)
 	portifolios = models.ManyToManyField('pages.Portifolio')
 	duration = models.CharField(choices=PROJECT_DURATION_CHOICES, max_length=100)
-	objectives = models.ManyToManyField('ProjectObjective')
 	project_areas = models.ManyToManyField('Ward')
 	beneficiary_population = models.IntegerField()
 	beneficiaries = models.ManyToManyField('TargetedBeneficiary')

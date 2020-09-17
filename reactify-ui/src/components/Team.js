@@ -73,18 +73,16 @@ export class Team extends Component {
         return (
             <Fragment>
                 <li className='zards__item'>
-                    <Card style={{color: 'teal', width: '300px', height: '500px'}}>
-                        <Carousel 
-                            value={this.props.personels}
-                            autoplayInterval={3000}
-                            numVisible={1} 
-                            numScroll={1} 
-                            orientation="vertical" 
-                            verticalViewPortHeight="352px"
-                            itemTemplate={this.productTemplate} 
-                            header={<h2>OUR OFFICERS</h2>} style={{maxWidth: '400px', paddingBottom: '50px', marginTop: '2em', textAlign: 'center'}} 
-                        />
-                    </Card> 
+                    <Carousel 
+                        value={this.props.personels}
+                        autoplayInterval={3000}
+                        numVisible={1} 
+                        numScroll={1} 
+                        orientation="vertical" 
+                        verticalViewPortHeight="352px"
+                        itemTemplate={this.productTemplate} 
+                        header={<h2>OUR OFFICERS</h2>} style={{maxWidth: '400px', paddingBottom: '50px', marginTop: '2em', textAlign: 'center'}} 
+                    />
                 </li>
             </Fragment>
         );

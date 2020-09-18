@@ -21,8 +21,6 @@ import Newsletters from './components/Newsletters';
 import Newsletter from './components/Newsletter';
 
 
-
-
 class App extends Component{
   render(){
     return(

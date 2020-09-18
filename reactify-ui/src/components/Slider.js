@@ -18,12 +18,16 @@ function Slider() {
 
   return (
     <div className='zards'>
-      <div className='card' data-aos="flip-up" >
-        <h1 style={{paddingBottom: '10px'}}>MEET CYVAT TEAM </h1>
-          <ul className='zards__items'>
-            < Board />
-            < Team />
-          </ul>
+      <div className='car' data-aos="flip-up">
+        <h1 style={{paddingBottom: '10px'}}>MEET OUR AMAZING TEAM </h1>
+          <div className='zards__container'>
+            <div className='zards__wrapper'>
+              <ul className='zards__items' >
+                < Team />
+                < Board />
+              </ul>
+            </div>
+          </div>
       </div>
     </div>
   );

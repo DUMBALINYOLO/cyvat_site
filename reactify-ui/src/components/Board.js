@@ -51,11 +51,16 @@ export class Board extends Component {
             <div className="product-iem">
                 <div className="product-tem-content">
                     <div className="p-mb-3">
-                        <img src={member.image} alt={member.name} className="product-image" style={{borderRadius: '50%', width: '200px', height: '150px', boxShadow: 'tomato'}} />
+                        <img 
+                            src={member.image} 
+                            alt={member.name} 
+                            className="product-image" 
+                            style={{borderRadius: '50%', width: '100px', height: '100px', boxShadow: 'tomato'}} 
+                        />
                     </div>
                     <div>
                         <h4 className="p-mb-1">{member.name}</h4>
-                        <h2 className="p-mt-0 p-mb-3">{member.position}</h2>
+                        <h5 className="p-mt-0 p-mb-3">{member.position}</h5>
                         <div className="car-buttons p-mt-5">
                             <Button icon="pi pi-search" className="p-button p-button-rounded p-mr-2" />
                             <Button icon="pi pi-star" className="p-button-success p-button-rounded p-mr-2" />
@@ -71,19 +76,21 @@ export class Board extends Component {
 
     render() {
         return (
+
             <Fragment>
-                <li className='zards__item'>
-                    <Carousel 
-                        value={this.props.boardmembers} 
-                        numVisible={1} 
-                        numScroll={1} 
-                        orientation="vertical" 
-                        verticalViewPortHeight="352px"
-                        itemTemplate={this.productTemplate} 
-                        header={<h2>OUR BOARD </h2>} style={{maxWidth: '400px', marginTop: '2em', textAlign: 'center'}} 
-                        autoplayInterval={3000}
-                    />
-                </li>
+                <div className='card'>
+                    <li className='zards__item'>
+                        <Carousel 
+                            value={this.props.boardmembers}
+                            autoplayInterval={3000}
+                            orientation="vertical" 
+                            verticalViewPortHeight="252px"
+                            itemTemplate={this.productTemplate} 
+                            header={<h2>OUR BOARD</h2>} 
+                            style={{ maxWidth: '200px', paddingBottom: '50px', marginTop: '2em', textAlign: 'center'}} 
+                        />
+                    </li>
+                </div>
             </Fragment>
         );
     }

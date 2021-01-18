@@ -1,0 +1,1 @@
+export const GET_HEADOFFICES = "GET_HEADOFFICES";

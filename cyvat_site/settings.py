@@ -59,7 +59,7 @@ ROOT_URLCONF = 'cyvat_site.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'amajita')],
+        'DIRS': ['/home/baridzi/cyvat_site/amajita/build'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
